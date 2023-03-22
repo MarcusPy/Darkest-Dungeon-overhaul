@@ -134,13 +134,6 @@
             ]
          }
       ]
-   },
-      {
-         "id" : "nomad_wagon.rarities",
-         "is_instanced" : false,
-         "tags" : ["building","nomad_wagon"],
-         "requirements" : 
-         []
    }
 ]
 }
