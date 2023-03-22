@@ -16,7 +16,7 @@
 				"data":
 				{
 					"first_hero_classes" : 
-					[	"plague_doctor"	],
+					[	"vestal"	],
 					"number_of_recruits_upgrades":
 					[
 						{ "amount": 3 },
