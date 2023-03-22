@@ -10,4 +10,4 @@ Main changes:
 - A lot more
 
 Designed to be played on Bloodmoon difficulty.
-Download from here - https://steamcommunity.com/sharedfiles/filedetails/?id=2950357089
+Download from here - https://steamcommunity.com/sharedfiles/filedetails/?id=2950642252
