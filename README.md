@@ -1,8 +1,7 @@
 # Darkest-Dungeon-overhaul
 Main changes:
 - Removed Abomination, Bounty Hunter, Grave Robber, Hellion, Hound Master, Leper, Plague Doctor, Musketeer, Flagellant, Shieldbreaker
-- Made the remaining classes significantly stronger and more influencial
-- Increased enemies' HP by anywhere from 20% to 60%
+- Made the remaining classes slightly stronger and more influencial
 - Reworked Trading Caravan by changing her stock
 - Introduced Kickstarter trinkets as items only obtainable through Caravan
 - Improved Stage Coach
