@@ -1,0 +1,1 @@
+inventory_system_config:	.type "hero_equipped_trinkets"		.max_slots 3				.use_stack_limits true
