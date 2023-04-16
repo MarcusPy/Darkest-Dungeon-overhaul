@@ -1,8 +1,0 @@
-colour: .id "bogatyr"                                     .rgba #a3ffee
-colour: .id "boga_fb_1"                                     .rgba 59 97 167 255
-colour: .id "boga_fb_2"                                     .rgba 194 69 0 255
-colour: .id "purpose"												    .rgba	#e0ddce
-colour: .id "yes_target_fre"                                                 .rgba	115 201 73 255
-
-
-colour: .id "tooltip_chance"                                               .shared_id "user_generated_content_entry_tooltip_build"
