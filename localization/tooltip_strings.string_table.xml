@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="english">
+  
+	<!------- 
+	
+	-- Table of Contents --
+	Use ctrl+F to jump to that section
+	
+	Skill Strings
+	Item Strings
+	Region Strings
+	Stat strings
+	DoT and HoT strings
+	Riposte and Guard strings
+	Stress strings 
+	Shuffle strings
+	Trinket additional effect strings
+	Factions Strings 
+	Other Strings 
+	Custom Tooltip Strings 
+	Sunward Isle Strings Consistancy 
+	
+	------->
+  
+  
+	<!------- Skill Strings ------->
+	
+	<entry id="buff_rule_data_tooltip_rage">								<![CDATA[{colour_start|notable}Rage{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_rake">								<![CDATA[{colour_start|notable}Rake{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_transform">							<![CDATA[{colour_start|notable}Transform{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_hew">									<![CDATA[{colour_start|notable}Hew{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_inspiring_cry">						<![CDATA[{colour_start|notable}Inspiring Cry{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_endure">								<![CDATA[{colour_start|notable}Endure{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_howl">								<![CDATA[{colour_start|notable}Cry Havoc{colour_end}]]></entry> 
+    <entry id="buff_rule_data_tooltip_refresh">								<![CDATA[{colour_start|notable}Cleansing Tide{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_arietta">								<![CDATA[{colour_start|notable}Arietta{colour_end}]]></entry>  
+    <entry id="buff_rule_data_tooltip_the_veil">							<![CDATA[{colour_start|notable}The Veil{colour_end}]]></entry> 
+    <entry id="buff_rule_data_tooltip_ColdSnap">							<![CDATA[{colour_start|notable}Cold Snap{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_Winters_Breath">						<![CDATA[{colour_start|notable}Winterbreath{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_Baltic_Melody">						<![CDATA[{colour_start|notable}Kievan Canto{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_rip_and_tear">						<![CDATA[{colour_start|notable}Rip and Tear{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_onslaught">							<![CDATA[{colour_start|notable}Onslaught{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_divine_grace">						<![CDATA[{colour_start|notable}Divine Grace{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_gods_comfort">						<![CDATA[{colour_start|notable}Divine Comfort{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_suppressing_fire">					<![CDATA[{colour_start|notable}Suppressing Fire{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_bola">								<![CDATA[{colour_start|notable}Bola{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_flare">								<![CDATA[{colour_start|notable}Rallying Flare{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_spearing">							<![CDATA[{colour_start|notable}Impale{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_page_cutter">							<![CDATA[{colour_start|notable}Page Cutter{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_heroic_end">							<![CDATA[{colour_start|notable}Finale{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_priva_sword_slash">					<![CDATA[{colour_start|notable}Strike Them Down!{colour_end}]]></entry>
+	
+   
+	
+	<!------- Item Strings ------->
+	
+    <entry id="buff_rule_tooltip_has_item_id">								<![CDATA[%s if %s in inventory]]></entry>	
+    <entry id="buff_rule_tooltip_has_item_id_false">						<![CDATA[%s if %s not in inventory]]></entry>
+	
+    <entry id="buff_rule_tooltip_has_item_type">							<![CDATA[%s if %s in Inventory]]></entry>
+    <entry id="buff_rule_tooltip_has_item_type_false">						<![CDATA[%s if no %s in Inventory]]></entry>
+		
+    <entry id="buff_rule_data_tooltip_laudanum">							<![CDATA[{colour_start|notable}Laudanum{colour_end}]]></entry>		
+    <entry id="buff_rule_data_tooltip_medicinal_herbs">						<![CDATA[{colour_start|notable}Medicinal Herbs{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_the_blood">							<![CDATA[{colour_start|notable}The Blood{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_antivenom">							<![CDATA[{colour_start|notable}Antivenom{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_torch">								<![CDATA[{colour_start|notable}Torch{colour_end}]]></entry>	
+    <entry id="buff_rule_data_tooltip_gold">								<![CDATA[{colour_start|notable}Gold{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_holy_water">							<![CDATA[{colour_start|notable}Holy Water{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_bandage">								<![CDATA[{colour_start|notable}Bandage{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_dog_treats">							<![CDATA[{colour_start|notable}Dog Treats{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_spice">								<![CDATA[{colour_start|notable}Shard Dust{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_skeleton_key">						<![CDATA[{colour_start|notable}Skeleton Key{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_talisman_charm">						<![CDATA[{colour_start|notable}Minor Omamori{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_talisman_mega">						<![CDATA[{colour_start|notable}Major Omamori{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_woodcarving">							<![CDATA[{colour_start|notable}Mediocre Woodcuts{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_mon">									<![CDATA[{colour_start|notable}Mon Bundle{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_koban2">								<![CDATA[{colour_start|notable}Koban{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_tea_bowl">							<![CDATA[{colour_start|notable}Precious Tea Bowl{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_antiqrelicsmall">						<![CDATA[{colour_start|notable}Minor Antique{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_antiqrelic">							<![CDATA[{colour_start|notable}Rare Antique{colour_end}]]></entry>
+	
+	
+    <entry id="buff_rule_data_tooltip_corpse">							<![CDATA[Corpses]]></entry>	
+	
+	<!------- Region Strings ------->
+	
+	
+    <entry id="buff_rule_tooltip_in_dungeon"><![CDATA[%s in the %s]]></entry>
+	<entry id="buff_rule_tooltip_in_dungeon_false"><![CDATA[%s if not in the %s]]></entry>
+	
+	
+    <entry id="buff_rule_data_tooltip_farm">						<![CDATA[{colour_start|notable}Farmstead{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_crypts">						<![CDATA[{colour_start|notable}Ruins{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_warrens">						<![CDATA[{colour_start|notable}Warrens{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_weald">						<![CDATA[{colour_start|notable}Weald{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_ship">						<![CDATA[{colour_start|notable}Sunward Isles{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_cove">						<![CDATA[{colour_start|notable}Cove{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_darkestdungeon">				<![CDATA[{colour_start|notable}Darkest Dungeon{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_courtyard">					<![CDATA[{colour_start|notable}Courtyard{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_cemetery">					<![CDATA[{colour_start|notable}Cemetery{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_pet_cemetery">				<![CDATA[{colour_start|notable}Pet Cemetery{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_vmt_mine">					<![CDATA[{colour_start|notable}Warpstone Mines{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_vmt_sewer">					<![CDATA[{colour_start|notable}Hamlet Sewers{colour_end}]]></entry>
+	
+	<!------- Stat strings ------->
+	
+	
+    <entry id="buff_stat_tooltip_combat_stat_add_crit_chance"><![CDATA[%+d CRT]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_add_protection_rating"><![CDATA[%+d PROT]]></entry>
+	<entry id="buff_stat_tooltip_combat_stat_add_damage_low"><![CDATA[%+d DMG]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_add_attack_rating"><![CDATA[%+d ACC]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_add_defense_rating"><![CDATA[%+d DODGE]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_add_max_hp"><![CDATA[%+d MAX HP]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_add_speed_rating"><![CDATA[%+d SPD]]></entry>
+	
+	<entry id="buff_stat_tooltip_combat_stat_multiply_crit_chance"><![CDATA[%+d%% CRIT]]></entry>
+	<entry id="buff_stat_tooltip_combat_stat_multiply_speed_rating"><![CDATA[%+d%% SPD]]></entry>
+	<entry id="buff_stat_tooltip_combat_stat_multiply_attack_rating"><![CDATA[%+d%% ACC]]></entry>
+	<entry id="buff_stat_tooltip_combat_stat_multiply_defense_rating"><![CDATA[%+d%% DODGE]]></entry>
+	<entry id="buff_stat_tooltip_combat_stat_multiply_protection_rating"><![CDATA[%+d%% PROT]]></entry>
+	
+	
+    <entry id="camping_skill_effect_campingCritBuff"><![CDATA[CRIT +%d]]></entry>
+    <entry id="camping_skill_effect_campingCritBuffRanged"><![CDATA[Improve {colour_start|attacktype}Ranged{colour_end} Attacks CRIT +%d]]></entry>
+	
+    <entry id="str_skill_tooltip_crit_mod"><![CDATA[CRIT mod: %+.1f]]></entry>
+	
+	
+    
+	
+	<entry id="buff_stat_tooltip_debuff_chance"><![CDATA[%+d%% {colour_start|debuff}Debuff{colour_end} Chance]]></entry>
+    <entry id="buff_stat_tooltip_stun_chance"><![CDATA[%+d%% {colour_start|stun}Stun{colour_end} Chance]]></entry>
+    <entry id="buff_stat_tooltip_bleed_chance"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Chance]]></entry>
+    <entry id="buff_stat_tooltip_poison_chance"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Chance]]></entry>
+    <entry id="buff_stat_tooltip_move_chance"><![CDATA[%+d%% {colour_start|move}Move{colour_end} Chance]]></entry>
+    <entry id="buff_stat_tooltip_deathblow_chance"><![CDATA[%+d%% {colour_start|deathblow}Deathblow{colour_end} Chance]]></entry>
+	
+    <entry id="buff_stat_tooltip_hp_heal_percent"><![CDATA[%+d%% {colour_start|healhp}Healing{colour_end} Done]]></entry>
+    <entry id="buff_stat_tooltip_hp_heal_amount"><![CDATA[%+d {colour_start|healhp}Healing{colour_end} Done]]></entry>
+	
+	<entry id="buff_stat_tooltip_ignore_protection"><![CDATA[%+d Armor Piercing]]></entry>	
+	<entry id="buff_stat_tooltip_damage_reflect_percent"><![CDATA[%d%% Damage Reflection]]></entry>
+	
+    <entry id="buff_stat_tooltip_damage_received_percent"><![CDATA[%+d%% DMG Received]]></entry>
+	
+	
+    <entry id="buff_rule_tooltip_attacking_monster_type"><![CDATA[%s when attacked by %s]]></entry>
+    <entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s vs %s]]></entry>
+	
+	
+	
+	<!------- DoT and HoT strings ------->
+	
+	
+    <entry id="effect_tooltip_cure_poison">									<![CDATA[Cure {colour_start|blight}Blight{colour_end}]]></entry>
+    <entry id="effect_tooltip_cure_bleed">									<![CDATA[Cure {colour_start|bleed}Bleed{colour_end}]]></entry>  
+    <entry id="effect_tooltip_clear_stress_dot">							<![CDATA[Clear {colour_start|stress}Horror{colour_end}]]></entry> 
+	
+	<entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent">	<![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Duration Received]]></entry> 
+	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent">	<![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Duration Received]]></entry> 
+	<entry id="buff_stat_tooltip_stress_dot_duration_received_percent">		<![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Duration Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_heal_dot_duration_recieved_percent">	<![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Duration Received]]></entry>
+	
+	<entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent">	<![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount Received]]></entry> 
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent">		<![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Amount Received]]></entry>
+	<entry id="buff_stat_tooltip_stress_dot_amount_received_percent">		<![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_heal_dot_amount_received_percent">		<![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount Received]]></entry>
+	
+	<entry id="buff_stat_tooltip_hp_dot_poison_duration_percent">			<![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Duration]]></entry> 
+	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent">			<![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Duration]]></entry> 
+	<entry id="buff_stat_tooltip_stress_dot_duration_percent">				<![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_heal_dot_duration_percent">				<![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
+	
+	<entry id="buff_stat_tooltip_hp_dot_poison_amount_percent">				<![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount]]></entry> 
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent">				<![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+	<entry id="buff_stat_tooltip_stress_dot_amount_percent">				<![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_heal_dot_amount_percent">				<![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+	
+	
+	<!------- Riposte and Guard strings ------->
+	
+	
+	<entry id="buff_stat_tooltip_guard_duration_received_percent">			<![CDATA[%+d%% {colour_start|guard}Guard{colour_end} Duration Received]]></entry>
+	<entry id="buff_stat_tooltip_guard_amount_received_percent">			<![CDATA[%+d%% {colour_start|guard}Guard{colour_end} amount Received]]></entry>
+	<entry id="buff_stat_tooltip_guard_duration_percent">					<![CDATA[%+d%% {colour_start|guard}Guard{colour_end} Duration]]></entry>
+	<entry id="buff_stat_tooltip_guard_amount_percent">						<![CDATA[%+d%% {colour_start|guard}Guard{colour_end} Amount]]></entry>
+    <entry id="buff_rule_tooltip_is_guarding">								<![CDATA[%s when {colour_start|guard}Guarding{colour_end}]]></entry>   
+	
+    <entry id="effect_clear_guarded">										<![CDATA[Breaks {colour_start|guard}Guard{colour_end}]]></entry>
+    <entry id="effect_clear_guarding">										<![CDATA[Breaks {colour_start|guard}Guard{colour_end}]]></entry>
+    <entry id="skill_ignore_guard">											<![CDATA[Bypass {colour_start|guard}Guard{colour_end}]]></entry>
+	
+    <entry id="buff_stat_tooltip_riposte_duration_percent">					<![CDATA[%+d%% {colour_start|riposte}Riposte{colour_end} Duration]]></entry>
+    <entry id="buff_rule_tooltip_riposte">									<![CDATA[{colour_start|riposte}Riposte{colour_end}: %s]]></entry>	
+    <entry id="effect_tooltip_riposte">										<![CDATA[Activates {colour_start|riposte}Riposte{colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_riposte">									<![CDATA[{colour_start|riposte}RIPOSTE{colour_end} (%d Rounds)]]></entry>
+    <entry id="tray_icon_tooltip_riposte_no_duration">						<![CDATA[{colour_start|riposte}RIPOSTE{colour_end} Active]]></entry>
+	
+	<!------- Stress strings ------->
+	
+    <entry id="buff_stat_tooltip_stress_heal_percent">						<![CDATA[%+d%% {colour_start|stress}Stress Relief{colour_end} Done]]></entry>
+	<entry id="buff_stat_tooltip_stress_heal_received_percent">				<![CDATA[%+d%% {colour_start|stress}Stress Relief{colour_end} Received]]></entry>
+	
+	
+	<!------- Shuffle strings ------->
+	
+	
+    <entry id="str_bark_shuffled"><![CDATA[Disorienting!]]></entry>
+    <entry id="str_bark_shuffled"><![CDATA[...my footing!]]></entry>
+    <entry id="str_bark_shuffled"><![CDATA[What...I...]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[Can't hold my balance!]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[My feet are bedeviled!]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[My legs resist my will!]]></entry>
+    <entry id="tray_icon_tooltip_shuffle_dot_format"><![CDATA[Shuffle (%d rds)]]></entry>	
+	
+	
+	<!------- Trinket additional effect strings ------->
+	
+    <entry id="trinket_attack_skill_additional_effects_hit_miss">			<![CDATA[On Attack:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit">				<![CDATA[On Attack Hit:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_miss">				<![CDATA[On Attack Miss:]]></entry>
+	
+	<entry id="trinket_attack_crit_additional_effects_hit_miss">			<![CDATA[On Crit:]]></entry>
+    <entry id="trinket_attack_crit_additional_effects_hit">					<![CDATA[On Crit Hit:]]></entry>
+    <entry id="trinket_attack_crit_additional_effects_miss">				<![CDATA[On Crit Miss:]]></entry>
+	
+	<entry id="trinket_melee_attack_skill_additional_effects_hit_miss">		<![CDATA[On {colour_start|attacktype}Melee{colour_end} Attack:]]></entry>
+	<entry id="trinket_melee_attack_skill_additional_effects_hit">			<![CDATA[On {colour_start|attacktype}Melee{colour_end} Hit:]]></entry>
+	<entry id="trinket_melee_attack_skill_additional_effects_miss">			<![CDATA[On {colour_start|attacktype}Melee{colour_end} Miss:]]></entry>
+	
+	<entry id="trinket_ranged_attack_skill_additional_effects_hit_miss">	<![CDATA[On {colour_start|attacktype}Ranged{colour_end} Attack:]]></entry>
+	<entry id="trinket_ranged_attack_skill_additional_effects_hit">			<![CDATA[On {colour_start|attacktype}Ranged{colour_end} Hit:]]></entry>
+	<entry id="trinket_ranged_attack_skill_additional_effects_miss">		<![CDATA[On {colour_start|attacktype}Ranged{colour_end} Miss:]]></entry>
+	
+	<entry id="trinket_was_hit_additional_effects">							<![CDATA[On Being Hit:]]></entry>
+	<entry id="trinket_was_hit_all_heroes_additional_effects">				<![CDATA[On Being Hit: Party:]]></entry>
+	<entry id="trinket_was_hit_all_monsters_additional_effects">			<![CDATA[On Being Hit: Enemy Party:]]></entry>
+	
+    <entry id="trinket_kill_performer_additional_effects">					<![CDATA[On Monster Kill:]]></entry>
+    <entry id="trinket_was_killed_all_heroes_additional_effects">			<![CDATA[Hero Killed: Party:]]></entry>
+    <entry id="trinket_kill_all_monsters_additional_effects">				<![CDATA[On Monster Kill : Enemy Party:]]></entry>
+	
+	
+	<!------- Factions Strings ------->
+	
+	<entry id="buff_rule_data_tooltip_human"><![CDATA[Human]]></entry>
+	<entry id="buff_rule_tooltip_target_is_vampire"><![CDATA[%s vs Crimson Cursed]]></entry>
+	
+	<!------- Other Strings ------->
+	
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_quirk">				<![CDATA[Increased chance of gaining quirks during stress relief.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_go_missing">				<![CDATA[Increased chance of going missing during stress relief.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_activity_lock">			<![CDATA[Increased chance of refusing to leave stress relief.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_apply_buff">				<![CDATA[Increased chance of gaining buffs and debuffs during stress relief.]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_camping_skill">						<![CDATA[%-d%% Camping Skill Purchase Cost]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_combat_skill">						<![CDATA[%-d%% Combat Skill Upgrade Cost]]></entry>	
+    <entry id="buff_stat_tooltip_random_target_chance">									<![CDATA[Random target chance %d%% of the time]]></entry>	
+    <entry id="buff_stat_tooltip_random_target_attack_chance">							<![CDATA[On attack: Random target %d%%]]></entry>
+    <entry id="skill_performer_hp_max">													<![CDATA[Valid below %d%% HP]]></entry>
+    <entry id="buff_rule_tooltip_target_hpbelow">										<![CDATA[{?string1}%s if target HP below {?percent1}%d%%]]></entry>	
+    <entry id="buff_rule_tooltip_actorStatus_false">									<![CDATA[%s vs not %s]]></entry>
+    <entry id="buff_rule_tooltip_actorStatus">											<![CDATA[%s vs %s]]></entry>
+    <entry id="buff_rule_tooltip_is_actor_status">										<![CDATA[%s while %s]]></entry>	
+
+	
+	<entry id="buff_stat_tooltip_damage_reflect_percent"><![CDATA[%d%% Damage Reflection]]></entry>
+	
+	<entry id="effect_tooltip_steal_hp_dot_heal"><![CDATA[Transfer {colour_start|healhp}Restoration{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_hp_heal_received_percent_eat"><![CDATA[%+d%% {colour_start|healhp}Healing{colour_end} from food]]></entry>
+	
+	
+	<entry id="buff_stat_tooltip_stress_heal_received_percent_hero_crit"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end} Healing Received from Crits]]></entry>
+	
+
+	<!------- Custom Tooltip Strings ------->
+	
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_wraith_guillotine_tooltip"><![CDATA[Always Crit if target HP below 25%%]]></entry>	
+    <entry id="buff_stat_tooltip_upgrade_discount_cannot_be_riposted"><![CDATA[Cannot be {colour_start|riposte}Riposted{colour_end}]]></entry>	
+    <entry id="buff_rule_data_tooltip_vengeancetooltip"><![CDATA[{colour_start|mark}Marked{colour_end} / Consume {colour_start|mark}Mark{colour_end}]]></entry> 
+    <entry id="buff_rule_data_tooltip_seraphtooltip"><![CDATA[{colour_start|mark}Marked{colour_end}
+	Consume {colour_start|mark}Mark{colour_end}]]></entry>
+	
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_tanto_tooltip"><![CDATA[{colour_start|notable}Page Cutter{colour_end}: Armor Piercing, Bypass {colour_start|guard}Guard{colour_end}]]></entry>
+	
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_LB_Privateer_COM_TT"><![CDATA[On Attack Hit: Gain {colour_start|notable}Combat Action{colour_end} {colour_start|tooltip_chance}(10%% chance){colour_end}]]></entry>
+		  
+    <entry id="buff_stat_tooltip_upgrade_discount_sisters_trespass"><![CDATA[Always Crit vs. {colour_start|mark}Marked{colour_end}]]></entry>	
+    <entry id="buff_stat_tooltip_upgrade_discount_sisters_bramble"><![CDATA[{colour_start|riposte}Riposte{colour_end}: Armor Piercing]]></entry>		
+    <entry id="buff_stat_tooltip_upgrade_discount_crimson_dance_tooltip1"><![CDATA[Hits Position 1+3]]></entry>	
+    <entry id="buff_stat_tooltip_upgrade_discount_crimson_dance_tooltip2"><![CDATA[Self: {colour_start|stress}Stress{colour_end} +4]]></entry>	
+	
+    <entry id="tray_icon_tooltip_buff_until_end_of_raid_format"><![CDATA[%s (Quest)]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_chacha_subway_stressheal_tooltip"><![CDATA[-100%% {colour_start|stress}Stress Relief{colour_end} Done]]></entry>
+	
+	<!------- Sunward Isle Strings Consistancy ------->
+	
+	
+	<entry id="str_quirk_description_kuchi_quirk"><![CDATA[+1 DMG per 33 Stress. Caps at +3 once over 99]]></entry>
+	<entry id="str_inventory_description_estatered_seal"><![CDATA[These permits can be used to slightly boost your party's 
+	DMG vs {colour_start|mark}Marked{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_jutte_tooltip"><![CDATA[{colour_start|notable}Blackjack{colour_end} and {colour_start|notable}Target Whistle{colour_end}: {colour_start|debuff}Debuffs Target:{colour_end} -25%% DMG {colour_start|tooltip_chance}(140%% chance){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_muramasa_tooltip"><![CDATA[On Attack Hit: {colour_start|buff}Buffs Self:{colour_end} +4%% DMG vs {colour_start|bleed}Bleeding{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_bento_tooltip"><![CDATA[Friendly Skill: {colour_start|buff}Buffs Target:{colour_end} +10%% {colour_start|healhp}Healing{colour_end} when Eating]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sashimono_tooltip"><![CDATA[On Monster Kill: {colour_start|buff}Buffs Party:{colour_end} +5%% DMG
+	On Monster Kill: {colour_start|buff}Buffs Party:{colour_end} +1 SPD]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_isshou_tooltip"><![CDATA[On Being Hit: {colour_start|buff}Buffs Self:{colour_end} +6%% Damage Reflection]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sensu_tooltip"><![CDATA[On Being Hit: Self: {colour_start|stress}Stress{colour_end} +5]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_tengu_tooltip"><![CDATA[On Attack Hit: {colour_start|buff}Buffs Self:{colour_end} +2 CRT
+	On Attack Hit: {colour_start|buff}Buffs Self:{colour_end} +1 SPD]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_kunai_tooltip"><![CDATA[On Monster Kill: {colour_start|buff}Buff Self:{colour_end} +2 Additional HP {colour_start|healhp}Healed{colour_end} (applied after {colour_start|healhp}Heal{colour_end}, Lasts 1 Battle)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_masamune_tooltip"><![CDATA[On Attack Hit: Breaks {colour_start|riposte}Riposte{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_censer_tooltip_1"><![CDATA[Friendly Skills: {colour_start|buff}Buffs Party:{colour_end} -15%% {colour_start|stress}Stress{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_kitsune_tooltip"><![CDATA[On Being Hit: {colour_start|buff}Buff Party:{colour_end} +5 DODGE]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_kuri_tooltip"><![CDATA[{colour_start|notable}Pierce{colour_end}, {colour_start|notable}Puncture{colour_end}, and {colour_start|notable}Captivate{colour_end}: {colour_start|move}Pull{colour_end} 1 {colour_start|tooltip_chance}(140%% chance){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_yaku_tooltip"><![CDATA[Friendly Skills: {colour_start|buff}Buffs Target:{colour_end} +10%% {colour_start|virtue}Virtue{colour_end} Chance {colour_start|tooltip_chance}(20%% chance){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_mirror_damage_reflect_loss_tooltip"><![CDATA[On Being Hit: {colour_start|debuff}Debuffs Self:{colour_end} -5%% Damage Reflection]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sagari_push_tooltip"><![CDATA[{colour_start|notable}Onslaught{colour_end}: {colour_start|move}Move Self:{colour_end} Back 3]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_exterminator_tooltip_kodoku2"><![CDATA[On Attack Hit: Target: Breaks {colour_start|riposte}Riposte{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_eastern_tooltip_frog"><![CDATA[Gain {colour_start|notable}Combat Action{colour_end} {colour_start|tooltip_chance}(10%% chance){colour_end}]]></entry>
+	
+  </language>
+</root>
+
