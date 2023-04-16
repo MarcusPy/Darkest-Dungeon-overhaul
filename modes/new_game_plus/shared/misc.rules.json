@@ -1,0 +1,84 @@
+{
+    "monster_crit": {
+        "stress_chance": 1.0,
+        "stress_damage": 10.0,
+        "companion_stress_chance": 0.0,
+        "companion_stress_damage": 0.0
+    },
+    "player_crit": {
+        "relief_chance": 1.0,
+        "stress_relief": 4.0,
+        "companion_relief_chance": 0.0,
+        "companion_stress_relief": 0.0
+    },
+    "combat_retreat_chance": 1.0,
+    "combat_retreat_stress": 10.0,
+    "passed_turn_stress_dmg": 2.0,
+    "hallway_stress": { 
+        "hallway_per_tile_stress_damage_fwd": 2.0,
+        "hallway_per_tile_stress_damage_chance_fwd": 0.33,
+        "hallway_per_tile_stress_damage_backing_up": 2.0,
+        "hallway_per_tile_stress_damage_chance_backing_up": 0.5
+    },
+    "killing_blow_relief_chance": 1.0,
+    "killing_blow_stress_relief": 5.0,
+    "effectiveDifficultyDungeonStartingStress": [
+        10,
+        15,
+		20,
+		25,
+		30,
+		35,
+		40
+    ],
+    "effectiveDifficultyStressDmgModifiers": [
+        0.75,
+        0.75,
+        0.75,
+        0.75,
+        1.00,
+        1.25,
+		1.50
+    ],
+    "provision_hp_heal": 0.05,
+    "hallway_hunger_HPrestore": 0.05,
+    "hallway_hunger_starve_HPdmg": 0.20,
+    "meals_table": [
+        {
+            "type": "none",
+            "rations_per": 0.0,
+            "healing": -0.20,
+            "stress": 15.0
+
+        },
+        {
+            "type": "half",
+            "rations_per": 0.5,
+            "healing": 0.0,
+            "stress": -5.0
+        },
+        {
+            "type": "full",
+            "rations_per": 1.0,
+            "healing": 0.10,
+            "stress": -10.0
+        },
+        {
+            "type": "feast",
+            "rations_per": 2.0,
+            "healing": 0.25,
+            "stress": -15.0
+        }
+    ],
+    "new_game_plus_week_limit": 999,
+    "new_game_plus_hero_death_limit": 999,
+    "quirks_max_locked_positive": 5,
+    "quirks_max_locked_negative": 5,
+	"time_scale_combat": 2.0,
+    "affliction_base_onset_chance": 0.5,
+    "affliction_critical_success_chance": 0.5,
+    "affliction_min_chance": 0.5,
+    "affliction_max_chance": 0.5,
+    "m_MaxForwardSpeed": 600.0,
+    "m_MaxReverseSpeed": 400.0
+}
